@@ -1,0 +1,36 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.counters {
+    width: 100%; 
+    background: #212121;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container > div {
+    padding: 0px 20px;
+}
+.container div p { 
+    font-size: 20px; 
+    font-style: italic;
+}
+.counter { 
+    font-size: 40px;
+    line-height: 60px;
+}
