@@ -7,6 +7,15 @@
 }
 
 
+body {
+    background: url('./images/bg.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+
 /* Header Style */
 
 .header { 
@@ -127,7 +136,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 80px;
     min-width: 100%;
 }
 
@@ -194,10 +203,9 @@ footer a, footer p {color: #fff; text-decoration: none;}
 }
 
 
+
 .main-section {
-    background: url(./images/bg.jpg) no-repeat; 
-    background-size: cover; 
-    background-position: center center; 
-    height: calc(100vh - 80px); 
+    height: 1000px; 
     width: 100%; 
+    background: rgba(0, 0, 0, 0.37); 
 }
