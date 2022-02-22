@@ -250,6 +250,8 @@ footer a, footer p {color: #fff; text-decoration: none;}
 
 .offers-container {
     display: grid; 
+    width: 90%; 
+    margin: 10px auto; 
     grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -268,7 +270,7 @@ footer a, footer p {color: #fff; text-decoration: none;}
 
 .item:hover {
     box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.5);
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 .item ion-icon {
@@ -286,13 +288,37 @@ footer a, footer p {color: #fff; text-decoration: none;}
         grid-row-gap: 30px; 
         grid-template-columns: 1fr; 
     }
+    footer {
+        flex-direction: column;
+        min-height: 200px;
+    }
+    footer .copyrights > p {
+        text-align: center;
+    }
+    
 }
 
 .icons-container {
     display: flex; 
     flex-direction: row; 
     justify-content: center;  
-    grid-gap: 10px;
+    grid-gap: 20px;
     align-items:center; 
     width: 100%; 
+}
+
+
+/* Style "How We Work Section" */
+
+.how-we-work {
+    color: #000000; 
+    background-color: #eeeeee;
+}
+
+.how-we-work-title-description {
+    font-family: "Cairo"; 
+}
+
+.how-we-work .cover {
+    background: red;
 }
