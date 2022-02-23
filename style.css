@@ -247,6 +247,8 @@ footer a, footer p {color: #fff; text-decoration: none;}
     margin: 10px auto; 
     grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
 }
 
 .item {
@@ -365,3 +367,10 @@ footer a, footer p {color: #fff; text-decoration: none;}
         border: 1px solid #fff;
     }
 }
+
+.item-description {
+    font-family: "Cairo"; 
+    margin: 10px 0px;
+}
+
+
