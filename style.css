@@ -411,7 +411,9 @@ footer a, footer p {color: #fff; text-decoration: none;}
 }
 
 .portfolio {
-    background: #f9f9f9bb;
+    /* background: #f9f9f9bb; */
+    background:#212121;
+    color: #fff;
     margin-top: 20px;
 }
 
@@ -432,7 +434,7 @@ footer a, footer p {color: #fff; text-decoration: none;}
 
 .portfolio .content .button-visit {
     text-decoration: none; 
-    color: #000;
+    color: #fff;
     font-size: 25px;
 }
 
