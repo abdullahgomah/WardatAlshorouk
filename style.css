@@ -143,8 +143,9 @@ footer {
     background: #212121;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    height: 80px;
+    min-height: 80px;
     min-width: 100%;
 }
 
