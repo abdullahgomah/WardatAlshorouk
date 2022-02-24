@@ -374,3 +374,38 @@ footer a, footer p {color: #fff; text-decoration: none;}
 }
 
 
+
+.whatsapp-icon {
+    /* background: #4cca5a;  */
+    position:fixed; 
+    z-index: 120000;
+    bottom: 10px; 
+    left: 10px;
+    /* background: #0082e6; */
+    width: 60px; 
+    height: 60px;
+    line-height: 60px;
+}
+
+.whatsapp-icon ion-icon {
+    font-size: 60px;
+    color: #4cca5a; 
+}
+
+.whatsapp-icon ion-icon:hover {
+    color: #128c7e;
+}
+
+
+
+
+@media (max-width:768px) {
+    .whatsapp-icon { 
+        width: 50px; 
+        height: 50px; 
+        line-height: 50px; 
+    }
+    .whatsapp-icon ion-icon { 
+        font-size: 50px;
+    }
+}
