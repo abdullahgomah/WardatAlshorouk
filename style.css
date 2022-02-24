@@ -2,7 +2,8 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    font-family: 'Lemonada', cursive;
+    /* font-family: 'Lemonada', cursive; */
+    font-family: "Cairo"; 
     transition: all .2s ease-in-out;
 }
 
@@ -67,7 +68,7 @@ body {
     color: white; 
     padding: 7px 13px ;
     border-radius: 3px; 
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .header ul li a.active, .header ul li a:hover {
@@ -105,7 +106,8 @@ body {
         position: fixed; 
         width: 100%; 
         height: 100vh; 
-        background: #2c3e50;
+        /* background: #2c3e50; */
+        background: #212121;
         top: 80px; 
         left: -100%;
         text-align: center;
@@ -423,7 +425,7 @@ footer a, footer p {color: #fff; text-decoration: none;}
     padding: 10px;
 }
 
-.portfolio .content .portfolio-insta-logo {
+.portfolio .content .portfolio-insta-logo, .whatsapp {
     display: inline-block; 
     padding: 0px 10px;
     /* padding-top: 20px; */
@@ -440,4 +442,8 @@ footer a, footer p {color: #fff; text-decoration: none;}
 
 .portfolio .content .button-visit span {
     color:#d11f53;
+}
+
+.whatsapp {
+    color: #4cca5a;
 }
