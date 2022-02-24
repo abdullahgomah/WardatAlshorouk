@@ -188,6 +188,7 @@ footer a, footer p {color: #fff; text-decoration: none;}
 
 .socialmedia a {
     display: inline-block;
+    font-size: 18px;
 }
 .socialmedia a:hover {
     /* color:rgb(255, 217, 0); */
