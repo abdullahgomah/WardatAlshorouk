@@ -106,7 +106,7 @@ body {
 
 @media (max-width: 858px) {
     .checkbtn{
-        display: block; 
+        display: none; 
     }
     .header ul {
         position: fixed; 
